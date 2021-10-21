@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/cam"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/blacksoul" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"></Space>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Angelina Listyani Kartika"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F4D0D0"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="1918007"
+        android:textColor="#F3EBEB"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
